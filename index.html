@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Materia - [Tu Tema Aquí]</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados */
+        .hero-section {
+            padding: 5rem 0;
+            background-color: #f8f9fa;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Materia: [Nombre de la Materia]</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#temas">Temas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#recursos">Recursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4">Tema: [Nombre del Tema]</h1>
+            <p class="lead">Descripción breve y concisa del tema, basada en tus apuntes o libros.</p>
+            <!-- Imagen principal -->
+            <img src="ruta/a/tu/imagen-principal.jpg" alt="Imagen del tema" class="img-fluid rounded mt-4" style="max-height: 400px;">
+        </div>
+    </section>
+
+    <!-- Sección de Tarjetas -->
+    <section id="temas" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Subtemas Relacionados</h2>
+            <div class="row g-4">
+                <!-- Tarjeta 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="ruta/a/tu/imagen1.jpg" class="card-img-top" alt="Imagen subtema 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Subtema 1</h5>
+                            <p class="card-text">Descripción del subtema 1, basada en tus apuntes.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="ruta/a/tu/imagen2.jpg" class="card-img-top" alt="Imagen subtema 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Subtema 2</h5>
+                            <p class="card-text">Descripción del subtema 2, basada en tus apuntes.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="ruta/a/tu/imagen3.jpg" class="card-img-top" alt="Imagen subtema 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Subtema 3</h5>
+                            <p class="card-text">Descripción del subtema 3, basada en tus apuntes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Recursos -->
+    <section id="recursos" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Recursos Adicionales</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <ul class="list-group">
+                        <li class="list-group-item">Libro: [Título del Libro], Páginas [X-X]</li>
+                        <li class="list-group-item">Apuntes de clase: [Tema o fecha]</li>
+                        <li class="list-group-item">Material de estudio: [Enlace o referencia]</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer id="contacto" class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>Contacto: [Tu Correo o Información]</p>
+            <p>&copy; 2024 Página de Materia - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
